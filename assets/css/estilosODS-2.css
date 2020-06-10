@@ -1,0 +1,48 @@
+.parent-box {
+    
+    display: flex;
+}
+
+.box {
+  
+    margin-left: 20%;
+    margin-right: 20% !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+  
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    margin-left: 0;
+    top: 50px !important;
+    border-color: rgb(196, 79, 12);
+    transform: translateY(-50%);
+    color: rgb(231, 125, 4) !important;
+    font-size: 80px;
+    margin-bottom: 0px !important;
+}
+.owl-carousel .owl-nav button.owl-prev:focus {
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+    top: 50px !important;
+    margin-bottom: 0px !important;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    transform: translateY(-50%);
+    font: inherit;
+    position: absolute;
+    color: rgb(231, 125, 4) !important;
+    
+ 
+}
+
+.owl-carousel .owl-nav button.owl-next:focus {
+    outline: none;
+}
